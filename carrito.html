@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/carrito.css">
+</head>
+<body>
+    
+  <form class="formulario">
+  <h2>🛒 Carrito de Compra</h2>
+
+  <label class="categoria-label" for="categoria">Producto:</label>
+  <select id="categoria" name="categoria" required>
+    <option value="">-- Selecciona una categoría --</option>
+    <option value="globos">Globos</option>
+    <option value="relojes">Relojes</option>
+    <option value="graduaciones">Graduaciones</option>
+    <option value="cumpleaños">Cumpleaños</option>
+    <option value="Cajas">Cajas</option>
+    <option value="Peluches">Peluches</option>
+    <option value="Flores">Flores</option>
+    <option value="Bisuteria">Bisuteria</option>
+  </select>
+
+  <br><br>
+
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+
+  <label for="telefono">Teléfono:</label>
+  <input type="tel" id="telefono" name="telefono" required>
+
+  <label for="correo">Correo:</label>
+  <input type="email" id="correo" name="correo" required>
+
+  <label for="tarjeta">Número de tarjeta:</label>
+  <input type="text" id="tarjeta" name="tarjeta" required>
+
+  <label for="direccion">Dirección de entrega:</label>
+  <textarea id="direccion" name="direccion" rows="2" required></textarea>
+
+  <br>
+
+  <button type="submit">Enviar Pedido</button>
+      <br>
+    
+  </div>
+  <hr>
+</form>
+    <a href="/html/index2.html"><button class="btn">Devolver página principal</button></a>
+</body>
+</html>

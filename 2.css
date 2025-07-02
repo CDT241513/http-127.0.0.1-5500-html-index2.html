@@ -1,0 +1,132 @@
+        body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+    }
+
+    nav {
+      background-color: #08200b;
+      padding: 1rem;
+    }
+
+    .menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 2rem;
+    }
+
+    .menu > li {
+      position: relative;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem;
+      display: block;
+    }
+
+    /* Submenú oculto */
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #f8bbd0;
+      min-width: 160px;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .submenu a {
+      color: #2e4a3b;
+      padding: 0.5rem;
+    }
+
+    /* Mostrar al pasar el mouse */
+    .menu li:hover .submenu {
+      display: block;
+    }
+     body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #FFF8F0;
+      color: #2E4A3B;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+      background-color: #FFF8F0;
+    }
+
+    .textos-header {
+      max-width: 50%;
+    }
+
+    .textos-header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .textos-header p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    .btn {
+      background-color: #2E4A3B;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+
+    .imagen-principal img {
+      width: 300px;
+      border-radius: 8px;
+      border-color: black;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      padding: 2rem;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .info {
+      padding: 0 2rem 2rem;
+      display: flex;
+      gap: 4rem;
+      flex-wrap: wrap;
+    }
+
+    .info h2 {
+      color: #2E4A3B;
+      font-size: 1.5rem;
+    }
+
+    .info ul, .info p {
+      font-size: 1rem;
+    }
+
+    footer {
+      background-color: #F8BBD0;
+      text-align: center;
+      padding: 1rem;
+      font-style: italic;
+      color: #2E4A3B;
+    }
