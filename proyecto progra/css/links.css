@@ -1,0 +1,70 @@
+   body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #FFF8F0;
+      margin: 0;
+      padding: 0;
+    }
+
+.header{
+    background-image: url("/images/fondo-flores-rosas_23-2147509331.avif");
+    padding: 15px;
+    background-attachment: fixed;
+}
+
+    h1 {
+      text-align: center;
+      color: #2E4A3B;
+      margin-top: 2rem;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .card {
+      background-color: rgb(237, 221, 221);
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 1rem;
+    }
+
+    .card-content h3 {
+      margin: 0 0 0.5rem;
+      color: #2E4A3B;
+    }
+
+    .card-content p {
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    .card-content .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #E91E63;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn{
+        text-align: center;
+    }
